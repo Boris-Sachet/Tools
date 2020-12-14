@@ -1,3 +1,5 @@
+package Tools;
+
 /**
  * This is a convenient toolbox for getting info about stuff
  *
@@ -5,7 +7,7 @@
  */
 public class Get {
     /**
-     * Get number of character of the input
+     * Tools.Get number of character of the input
      * @param numb int
      * @return lenght of input param as int
      */
@@ -14,7 +16,7 @@ public class Get {
     }
 
     /**
-     * Get number of character of the input
+     * Tools.Get number of character of the input
      * @param numb int
      * @return lenght of input param as int
      */
@@ -23,7 +25,7 @@ public class Get {
     }
 
     /**
-     * Get number of character of the input
+     * Tools.Get number of character of the input
      * @param numb int
      * @return lenght of input param as int
      */
