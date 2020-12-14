@@ -8,7 +8,7 @@ package Tools;
 
 public class Print {
     //
-    // One dimention table printers
+    // One dimension table printers
     //
     /**
      * Display table of Strings
@@ -120,10 +120,10 @@ public class Print {
     }
 
     //
-    // Two dimentions table printer
+    // Two dimensions table printer
     //
     /**
-     * Display two dimentional table of int
+     * Display two dimensional table of int
      * @param tab : table 2D of int
      */
     // Note tab.length gives the number of lines and tab[0].length give the number of columns
@@ -147,7 +147,7 @@ public class Print {
         /* Display the first line with the columns numbers */
         // Adaptable spacer to match column indicator length +2 for the ':' character and the table border '|'
         System.out.print(Format.normaliseLength("", (Get.getLength(tab.length) + 1)));
-        // Display column number for each colum
+        // Display column number for each column
         for (int i = 0; i < tab[0].length; i++) {
             // +1 to account for space between columns
             System.out.print(Format.normaliseLength(i,(maxCellLength + 1)));
@@ -171,7 +171,7 @@ public class Print {
     }
 
     /**
-     * Display two dimentional table of String
+     * Display two dimensional table of String
      * @param tab : table 2D of int
      */
     // Note tab.length gives the number of lines and tab[0].length give the number of columns
